@@ -243,6 +243,79 @@ body {
   font-size: 16px;
 }
 
+/* 精品课程 */
+.course {
+  margin-top: 15px;
+}
+
+/* 标题 - 公共类 与其它区域共用 */
+.hd {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+}
+
+.hd h3 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.hd .more {
+  font-size: 14px;
+  color: #999;
+  padding-right: 20px;
+  background: url(../images/more.png) no-repeat right center;
+}
+
+/* 课程内容公共类 */
+.bd ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bd li {
+  width: 228px;
+  height: 271px;
+  background-color: pink;
+  margin-bottom: 14px;
+}
+
+.bd .pic {
+	height: 156px;
+}
+
+.bd li .text {
+  padding: 20px;
+  height: 115px;
+  background-color: #fff;
+}
+
+.bd li .text h4 {
+  height: 40px;
+  margin-bottom: 13px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bd li .text p {
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  color: #999;
+}
+
+.bd li .text span {
+  color: #fa6400;
+}
+
+.bd li .text i {
+  font-style: normal;
+}
+
+
 
 
 
