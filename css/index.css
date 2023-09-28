@@ -278,7 +278,7 @@ body {
 .bd li {
   width: 228px;
   height: 271px;
-  background-color: pink;
+  /* background-color: pink; */
   margin-bottom: 14px;
 }
 
@@ -315,7 +315,42 @@ body {
   font-style: normal;
 }
 
+/* 前端 */
+.hd ul {
+  display: flex;
+}
 
+.hd ul li {
+  margin-right: 60px;
+  font-size: 16px;
+}
 
+.hd ul li .active {
+  color: #00a4ff;
+}
+
+.bd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bd .left {
+  width: 228px;
+  /* background-color: pink; */
+}
+
+.bd .right {
+  width: 957px;
+  /* background-color: pink; */
+}
+
+.bd .right .top {
+  margin-bottom: 15px;
+  height: 100px;
+}
+
+.ai .bd {
+  display: block;
+}
 
 
