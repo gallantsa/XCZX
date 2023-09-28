@@ -110,3 +110,102 @@ body {
 }
 
 
+/* banner区域 */
+.banner {
+  height: 420px;
+  background-color: #0092cb;
+}
+
+.banner .wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 420px;
+  background-image: url(../uploads/banner.png);
+}
+
+.banner .left {
+  padding: 3px 20px;
+  width: 191px;
+  height: 420px;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+
+.banner .left a {
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  background: url(../images/right.png) no-repeat right center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.banner .left a:hover {
+  background: url(../images/right-hover.png) no-repeat right center;
+  color: #00a4ff;
+}
+
+
+.banner .right {
+  width: 218px;
+  height: 305px;
+  background-color: #209dd5;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+.banner .right h3 {
+  height: 48px;
+  margin-left: 14px;
+  line-height: 48px;
+  font-size: 15px;
+  color: #fff;
+
+}
+
+.banner .right .content {
+	height: 257px;
+	background-color: #ffffff;
+	border-radius: 10px;
+  padding: 14px;
+}
+
+.banner .right .content dl{
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.banner .right .content dt {
+  margin-bottom: 8px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.banner .right .content dd {
+  margin-bottom: 8px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.banner .right .content dd span {
+  color: #00a4ff;
+}
+
+.banner .right .content dd strong {
+  color: #7d7d7d;
+  font-weight: 400;
+}
+
+.banner .right .content a {
+  display: block;
+  height: 32px;
+  background-color: #00a4ff;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 32px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+
+
+
