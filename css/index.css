@@ -353,4 +353,65 @@ body {
   display: block;
 }
 
+/* 版权 */
+.footer {
+  background-color: #fff;
+  height: 273px;
+  margin-top: 60px;
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.footer .left {
+  width: 432px;
+}
+
+.footer .left p {
+  margin-top: 24px;
+  margin-bottom: 14px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #666;
+}
+
+.footer .left .download {
+  display: block;
+  width: 120px;
+  height: 36px;
+  border: 1px solid #00a4ff;
+  line-height: 34px;
+  text-align: center;
+  font-size: 16px;
+  color: #00a4ff;
+}
+
+.footer .right {
+  display: flex;
+}
+
+.footer .right dl {
+  margin-left: 130px;
+}
+
+.footer .right dt {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.footer .right dd {
+  color: #666;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+
+
+
+
 
