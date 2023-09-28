@@ -206,6 +206,43 @@ body {
   font-size: 14px;
 }
 
+/* recommend */
+.recommend {
+  display: flex;
+  height: 60px;
+  background-color: #fff;
+  margin-top: 11px;
+  padding: 0 20px;
+  line-height: 60px;
+}
+
+.recommend ul {
+  display: flex;
+  flex: 1;
+}
+
+.recommend h3 {
+  font-size: 18px;
+  color: #00a4ff;
+  font-weight: 400;
+}
+
+.recommend ul li a {
+  border-right: 1px solid #e0e0e0;
+  font-size: 18px;
+  padding: 0 24px;
+}
+
+.recommend ul li:last-child a {
+  border-right: 0;
+}
+
+
+.recommend .modify {
+  color: #00a4ff;
+  font-size: 16px;
+}
+
 
 
 
